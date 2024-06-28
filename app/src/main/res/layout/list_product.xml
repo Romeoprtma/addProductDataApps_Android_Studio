@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Produk" />
+
+    <TextView
+        android:id="@+id/text_jenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_nama"
+        android:text="Jenis Produk" />
+
+    <TextView
+        android:id="@+id/text_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_jenis"
+        android:text="Harga Produk" />
+
+    <ImageButton
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/baseline_edit_24"
+        android:contentDescription="Edit" />
+
+    <ImageButton
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_edit"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/delete"
+        android:contentDescription="Hapus" />
+</RelativeLayout>
