@@ -11,7 +11,7 @@ import java.util.HashMap;
 public class Helper extends SQLiteOpenHelper {
 
     private static final int DATABASE_VERSION = 1;
-    static final String DATABASE_NAME = "tambahproduk";
+    static final String DATABASE_NAME = "tambahproduk.db";
 
     public Helper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
